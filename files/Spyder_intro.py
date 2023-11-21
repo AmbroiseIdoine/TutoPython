@@ -13,7 +13,7 @@ import re
 
 
 # (changer l'adresse du fichier)
-folder=r"C:\Users\ambro\Documents\Associations\SAMU environnement\Tuto Python\data"
+folder=r"C:\Users\ambro\Documents\Associations\TutoPython\data"
 path2population = os.path.join(folder,"population.csv")
 dat = pd.read_csv(path2population,header=1)
 
